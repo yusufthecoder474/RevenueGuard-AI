@@ -1,0 +1,101 @@
+InvoiceNo,StockCode,Description,Quantity,InvoiceDate,UnitPrice
+CSYN10000,SYN-A,Ceramic studio mug,-1,2026-09-01,12.95
+SYN10000,SYN-B,Linen notebook,8,2026-09-01,8.50
+SYN10001,SYN-C,Desk organizer,3,2026-09-02,24.99
+SYN10001,SYN-D,Gift wrapping set,10,2026-09-02,4.25
+SYN10002,SYN-E,Cotton market tote,5,2026-09-03,16.75
+SYN10002,SYN-A,Ceramic studio mug,12,2026-09-03,12.95
+SYN10003,SYN-B,Linen notebook,7,2026-09-04,8.50
+SYN10003,SYN-C,Desk organizer,2,2026-09-04,24.99
+SYN10004,SYN-D,Gift wrapping set,9,2026-09-05,4.25
+SYN10004,SYN-E,Cotton market tote,4,2026-09-05,16.75
+SYN10005,SYN-A,Ceramic studio mug,11,2026-09-06,12.95
+SYN10005,SYN-B,Linen notebook,6,2026-09-06,8.50
+SYN10006,SYN-C,Desk organizer,1,2026-09-07,24.99
+SYN10006,SYN-D,Gift wrapping set,8,2026-09-07,4.25
+SYN10007,SYN-E,Cotton market tote,3,2026-09-08,16.75
+SYN10007,SYN-A,Ceramic studio mug,10,2026-09-08,12.95
+SYN10008,SYN-B,Linen notebook,5,2026-09-09,8.50
+CSYN10008,SYN-C,Desk organizer,-12,2026-09-09,24.99
+SYN10009,SYN-D,Gift wrapping set,7,2026-09-10,4.25
+SYN10009,SYN-E,Cotton market tote,2,2026-09-10,16.75
+SYN10010,SYN-A,Ceramic studio mug,9,2026-09-11,12.95
+SYN10010,SYN-B,Linen notebook,4,2026-09-11,8.50
+SYN10011,SYN-C,Desk organizer,11,2026-09-12,24.99
+SYN10011,SYN-D,Gift wrapping set,6,2026-09-12,4.25
+SYN10012,SYN-E,Cotton market tote,1,2026-09-13,16.75
+SYN10012,SYN-A,Ceramic studio mug,8,2026-09-13,12.95
+SYN10013,SYN-B,Linen notebook,3,2026-09-14,8.50
+SYN10013,SYN-C,Desk organizer,10,2026-09-14,24.99
+SYN10014,SYN-D,Gift wrapping set,5,2026-09-15,4.25
+SYN10014,SYN-E,Cotton market tote,12,2026-09-15,0
+SYN10015,SYN-A,Ceramic studio mug,7,2026-09-16,12.95
+SYN10015,SYN-B,Linen notebook,2,2026-09-16,8.50
+SYN10016,SYN-C,Desk organizer,9,2026-09-17,24.99
+SYN10016,SYN-D,Gift wrapping set,4,2026-09-17,4.25
+CSYN10017,SYN-E,Cotton market tote,-11,2026-09-18,16.75
+SYN10017,SYN-A,Ceramic studio mug,6,2026-09-18,12.95
+SYN10018,SYN-B,Linen notebook,1,2026-09-19,8.50
+SYN10018,SYN-C,Desk organizer,8,2026-09-19,24.99
+SYN10019,SYN-D,Gift wrapping set,3,2026-09-20,4.25
+SYN10019,SYN-E,Cotton market tote,10,2026-09-20,16.75
+SYN10020,SYN-A,Ceramic studio mug,5,2026-09-21,12.95
+SYN10020,SYN-B,Linen notebook,12,2026-09-21,8.50
+SYN10021,SYN-C,Desk organizer,7,2026-09-22,24.99
+SYN10021,SYN-D,Gift wrapping set,2,2026-09-22,4.25
+SYN10022,SYN-E,Cotton market tote,9,2026-09-23,16.75
+SYN10022,SYN-A,Ceramic studio mug,4,2026-09-23,12.95
+SYN10023,SYN-B,Linen notebook,11,2026-09-24,8.50
+SYN10023,SYN-C,Desk organizer,6,2026-09-24,24.99
+SYN10024,SYN-D,Gift wrapping set,1,2026-09-25,4.25
+SYN10024,SYN-E,Cotton market tote,8,2026-09-25,16.75
+SYN10025,SYN-A,Ceramic studio mug,3,2026-09-26,12.95
+CSYN10025,SYN-B,Linen notebook,-10,2026-09-26,8.50
+SYN10026,SYN-C,Desk organizer,5,2026-09-27,24.99
+SYN10026,SYN-D,Gift wrapping set,12,2026-09-27,4.25
+SYN10027,SYN-E,Cotton market tote,7,2026-09-28,16.75
+SYN10027,SYN-A,Ceramic studio mug,2,2026-09-28,12.95
+SYN10028,SYN-B,Linen notebook,9,2026-09-29,8.50
+SYN10028,SYN-C,Desk organizer,4,2026-09-29,24.99
+SYN10029,SYN-D,Gift wrapping set,11,2026-09-30,0
+SYN10029,SYN-E,Cotton market tote,6,2026-09-30,16.75
+SYN10030,SYN-A,Ceramic studio mug,1,2026-09-01,12.95
+SYN10030,SYN-B,Linen notebook,8,2026-09-01,8.50
+SYN10031,SYN-C,Desk organizer,3,2026-09-02,24.99
+SYN10031,SYN-D,Gift wrapping set,10,2026-09-02,4.25
+SYN10032,SYN-E,Cotton market tote,5,2026-09-03,16.75
+SYN10032,SYN-A,Ceramic studio mug,12,2026-09-03,12.95
+SYN10033,SYN-B,Linen notebook,7,2026-09-04,8.50
+SYN10033,SYN-C,Desk organizer,2,2026-09-04,24.99
+CSYN10034,SYN-D,Gift wrapping set,-9,2026-09-05,4.25
+SYN10034,SYN-E,Cotton market tote,4,2026-09-05,16.75
+SYN10035,SYN-A,Ceramic studio mug,11,2026-09-06,12.95
+SYN10035,SYN-B,Linen notebook,6,2026-09-06,8.50
+SYN10036,SYN-C,Desk organizer,1,2026-09-07,24.99
+SYN10036,SYN-D,Gift wrapping set,8,2026-09-07,4.25
+SYN10037,SYN-E,Cotton market tote,3,2026-09-08,16.75
+SYN10037,SYN-A,Ceramic studio mug,10,2026-09-08,12.95
+SYN10038,SYN-B,Linen notebook,5,2026-09-09,8.50
+SYN10038,SYN-C,Desk organizer,12,2026-09-09,24.99
+SYN10039,SYN-D,Gift wrapping set,7,2026-09-10,4.25
+SYN10039,SYN-E,Cotton market tote,2,2026-09-10,16.75
+SYN10040,SYN-A,Ceramic studio mug,9,2026-09-11,12.95
+SYN10040,SYN-B,Linen notebook,4,2026-09-11,8.50
+SYN10041,SYN-C,Desk organizer,11,2026-09-12,24.99
+SYN10041,SYN-D,Gift wrapping set,6,2026-09-12,4.25
+SYN10042,SYN-E,Cotton market tote,1,2026-09-13,16.75
+CSYN10042,SYN-A,Ceramic studio mug,-8,2026-09-13,12.95
+SYN10043,SYN-B,Linen notebook,3,2026-09-14,8.50
+SYN10043,SYN-C,Desk organizer,10,2026-09-14,24.99
+SYN10044,SYN-D,Gift wrapping set,5,2026-09-15,4.25
+SYN10044,SYN-E,Cotton market tote,12,2026-09-15,16.75
+SYN10045,SYN-A,Ceramic studio mug,7,2026-09-16,12.95
+SYN10045,SYN-B,Linen notebook,2,2026-09-16,8.50
+SYN10046,SYN-C,Desk organizer,9,2026-09-17,24.99
+SYN10046,SYN-D,Gift wrapping set,4,2026-09-17,4.25
+SYN10047,SYN-E,Cotton market tote,11,2026-09-18,16.75
+SYN10047,SYN-A,Ceramic studio mug,6,2026-09-18,12.95
+SYN10048,SYN-B,Linen notebook,1,2026-09-19,8.50
+SYN10048,SYN-C,Desk organizer,8,2026-09-19,24.99
+SYN10049,SYN-D,Gift wrapping set,3,2026-09-20,4.25
+SYN10049,SYN-E,Cotton market tote,10,2026-09-20,16.75

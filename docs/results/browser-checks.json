@@ -1,0 +1,67 @@
+{
+  "browser": "153.0.8010.0",
+  "desktop": {
+    "width": 1600,
+    "height": 1100
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844
+  },
+  "source": "Screenshots from the actual local Wrangler application. Synthetic and real UCI samples explicitly labeled. Mock reports are not live LLM inference.",
+  "passed": 13,
+  "checks": [
+    {
+      "name": "initial dashboard has no invented metrics",
+      "status": "passed"
+    },
+    {
+      "name": "synthetic upload calculates 100 rows",
+      "status": "passed"
+    },
+    {
+      "name": "browser renders verified mock report",
+      "status": "passed"
+    },
+    {
+      "name": "offline labeling is visible",
+      "status": "passed"
+    },
+    {
+      "name": "desktop layout does not overflow",
+      "status": "passed"
+    },
+    {
+      "name": "controlled error visibly rejected with source unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "unconfigured live provider shows unavailable, without mock fallback",
+      "status": "passed"
+    },
+    {
+      "name": "real UCI sample runs through the application",
+      "status": "passed"
+    },
+    {
+      "name": "audit viewer displays persisted hashes",
+      "status": "passed"
+    },
+    {
+      "name": "invalid upload produces readable validation feedback",
+      "status": "passed"
+    },
+    {
+      "name": "uploaded descriptions render as plain text",
+      "status": "passed"
+    },
+    {
+      "name": "mobile layout does not overflow horizontally",
+      "status": "passed"
+    },
+    {
+      "name": "no uncaught browser exceptions",
+      "status": "passed"
+    }
+  ]
+}

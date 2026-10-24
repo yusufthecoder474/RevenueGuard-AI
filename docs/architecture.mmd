@@ -1,0 +1,16 @@
+flowchart TD
+  CSV["CSV upload / demo dataset"] --> Parse["Schema and row validation"]
+  Parse --> Facts["Decimal arithmetic and approved fact IDs"]
+  Facts --> Metrics["Source-backed dashboard metrics"]
+  Facts --> Provider{"ReportModel adapter"}
+  Provider --> Claude["Claude API"]
+  Provider --> Open["Groq open-weight API"]
+  Provider --> Mock["MockAdapter: offline fixture"]
+  Claude --> Guard["Zod and deterministic fact guard"]
+  Open --> Guard
+  Mock --> Guard
+  Facts --> Guard
+  Guard --> Verdict{"Accepted?"}
+  Verdict -->|Yes| Templates["Verified fact templates and constrained insights"]
+  Verdict -->|No| Inspector["Rejection codes and evidence inspector"]
+  Verdict --> Audit["D1 audit: hashes, provider, status, latency"]

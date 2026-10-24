@@ -1,0 +1,61 @@
+{
+  "kind": "controlled_error_injection",
+  "positiveClass": "invalid report (rejection is a detection)",
+  "cases": 180,
+  "invalid": 140,
+  "valid": 40,
+  "liveModelOutputs": 0,
+  "strategies": {
+    "No numerical guard": {
+      "truePositives": 0,
+      "falsePositives": 0,
+      "falseNegatives": 140,
+      "trueNegatives": 40,
+      "precision": null,
+      "recall": 0,
+      "falseAcceptRate": 1,
+      "falseRejectRate": 0
+    },
+    "Zod schema only": {
+      "truePositives": 20,
+      "falsePositives": 0,
+      "falseNegatives": 120,
+      "trueNegatives": 40,
+      "precision": 1,
+      "recall": 0.14285714285714285,
+      "falseAcceptRate": 0.8571428571428571,
+      "falseRejectRate": 0
+    },
+    "Deterministic fact guard": {
+      "truePositives": 140,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "trueNegatives": 40,
+      "precision": 1,
+      "recall": 1,
+      "falseAcceptRate": 0,
+      "falseRejectRate": 0
+    }
+  },
+  "categories": [
+    "valid_standard",
+    "valid_subset",
+    "valid_equivalent_decimal",
+    "valid_extreme_or_rounding",
+    "altered_revenue",
+    "wrong_currency",
+    "wrong_period",
+    "incorrect_total",
+    "missing_evidence",
+    "invented_metric",
+    "malformed_schema",
+    "decimal_rounding",
+    "unsupported_percentage",
+    "non_finite",
+    "free_text_bypass",
+    "conflicting_claim",
+    "unauthorized_calculation",
+    "missing_required_fact"
+  ],
+  "limitations": "Fixtures test a constrained schema and authorized formulas, not arbitrary financial reasoning or observed model hallucinations."
+}

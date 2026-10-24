@@ -1,0 +1,87 @@
+{
+  "runtime": "Wrangler local / workerd / D1 SQLite emulator",
+  "checks": [
+    {
+      "name": "health exposes actual configured-provider state",
+      "status": "passed"
+    },
+    {
+      "name": "API requires configured token",
+      "status": "passed"
+    },
+    {
+      "name": "wrong token rejected",
+      "status": "passed"
+    },
+    {
+      "name": "cross-origin POST rejected",
+      "status": "passed"
+    },
+    {
+      "name": "facts calculated in real Worker",
+      "status": "passed"
+    },
+    {
+      "name": "invalid CSV rejected",
+      "status": "passed"
+    },
+    {
+      "name": "malformed request JSON rejected",
+      "status": "passed"
+    },
+    {
+      "name": "large CSV rejected with explicit code",
+      "status": "passed"
+    },
+    {
+      "name": "request body hard limit enforced",
+      "status": "passed"
+    },
+    {
+      "name": "mock report accepted and truthfully labeled",
+      "status": "passed"
+    },
+    {
+      "name": "injected incorrect amount rejected without modifying source facts",
+      "status": "passed"
+    },
+    {
+      "name": "claude unavailable without credentials (never silently mock)",
+      "status": "passed"
+    },
+    {
+      "name": "open unavailable without credentials (never silently mock)",
+      "status": "passed"
+    },
+    {
+      "name": "forbids live-provider error injection",
+      "status": "passed"
+    },
+    {
+      "name": "rejects unknown providers",
+      "status": "passed"
+    },
+    {
+      "name": "rejects client supplied facts",
+      "status": "passed"
+    },
+    {
+      "name": "exports verified facts CSV",
+      "status": "passed"
+    },
+    {
+      "name": "real D1 persists acceptance, rejection and provider failure with provenance",
+      "status": "passed"
+    },
+    {
+      "name": "static frontend served with browser protections",
+      "status": "passed"
+    },
+    {
+      "name": "nonexistent API route returns 404",
+      "status": "passed"
+    }
+  ],
+  "passed": 20,
+  "cloudDeploymentTested": false
+}

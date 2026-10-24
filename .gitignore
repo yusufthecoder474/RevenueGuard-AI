@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-worker/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+*.xlsx
+*.log
+__pycache__/
+.venv/
+playwright-report/
+test-results/
+uci-source/
+uci-retail.zip
+data/raw/
